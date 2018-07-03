@@ -1,0 +1,58 @@
+html {
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg-utama.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.profile img {
+	position: absolute;
+	width: auto;
+	top: 40%;
+	left: 40%;
+	border-radius: 55%;
+}
+
+.a {
+	position: absolute;
+	width: auto;
+	top: 90%;
+	left: 30%;
+	border-radius: 55%;
+	text-align: center;
+	font-family: Brush Script MT;
+	color: white;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	font-family: Algerian;
+	padding-top: 13%;
+
+
+}
+.navigasi {
+	float: right;
+	list-style: none;
+}
+
+.navigasi li {
+	display: inline-block;
+}
+
+.navigasi li a:link,
+.navigasi li a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+	padding: 15px;
+}
+
+.navigasi li a:hover,
+.navigasi li a:active {
+	background-color: lightskyblue;
+	color: salmon;
+}

@@ -1,0 +1,74 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+
+
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+	background-color: #fff
+}
+.img {
+	float: left;
+	margin: 5px;
+}
+.header {
+	padding: 15px;
+	padding-bottom: 5px;
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+
+}
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+.hero {
+	height: 280px;
+	background-image: url(img/bg-utama.jpg);
+	background-size: cover;
+	border-top: 5px solid lightskyblue;
+	background-position: 0 -180;
+	border-bottom: : 5px solid salmon;
+
+}
+.content {
+	padding: 20px;
+}
+.content h2 {
+	font-size: 22px;
+}
+.content .penulis{
+	font-size: 10px;
+	margin-top: -25px;
+}
+
+.content .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+.content p{
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+.footer {
+	background-color: #333;
+
+}
+.footer .copy {
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
